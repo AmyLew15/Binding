@@ -1,0 +1,16 @@
+:root{
+    --main-font: "Space Mono";
+    --heading-font: "Familjen Grotesk";
+    --blockquote-font: "Familjen Grotesk";
+    --navigation-font-size: 3.5em;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+nav>ul>li {
+    border: var(--highlight-color3) 1px solid;
+}
+h2{
+    font-family: var(--heading-font);
+    font-size: var(--size 1);
+}

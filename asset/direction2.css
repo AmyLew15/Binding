@@ -1,0 +1,16 @@
+:root{
+    --main-font: "Montserrat";
+    --heading-font: "Montserrat";
+    --blockquote-font: "Montserrat";
+    --navigation-font-size: 3.5em;
+    background-color: var(--highlight-color2);
+    color: var(--dark-color);
+}
+
+nav>ul>li {
+    border: var(--highlight-color4) 1px solid;
+}
+h2{
+    font-family: var(--heading-font);
+    font-size: var(--size 1);
+}

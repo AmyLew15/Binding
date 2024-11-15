@@ -1,15 +1,45 @@
 :root{
+    /* font sizes*/
     --size-1: 18px;
     --size-2: 24px;
     --size-3: 36px;
     --size-4: 48px;
+    --size-5: 64px;
+    --size-6: 80px;
 
+    /* font styles*/
+    --main-font: "Lato";
+    --heading-font: "Montagu Slab";
+    --blockquote-font: "Montagu Slab";
+    --navigation-font-size: 3.5em;
+
+    /* colors */
+    --light-color: #FFFBF1;
+    --dark-color: #050100;
+    --highlight-color1: #F9451D;
+    --highlight-color2: #d9ff00;
+    --highlight-color3: #00ff40;
+    --highlight-color4: #1c33ff;
 }
 
+/*MOBILE TO START*/
+h1{
+    font-family: var(--main-font);
+    font-size: var(--size-2);
+    text-align: center;
+    margin: .5em;
+}
 
+h2{
+    font-family: var(--main-font);
+    font-size: var(--size-3)
+}
 
 nav>ul>li{
-    border: black 1px solid;
+    font-family: var(--heading-font);
+    font-size: var(--size-3);
+    padding: .25em;
+    border: var(--dark-color) 1px solid;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +49,23 @@ nav>ul>li{
 }
 
 ul{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
-@media (min-width: 1280px)
+em{
+    font-family: var(--blockquote-font);
+}
+
+p{
+    font-family: var(--main-font);
+    font-size: var(--size-1);
+    text-align: center;
+    margin: 1em;
+}
+
+footer{
+    margin: 1em;
+}
+
+/*@media (min-width: 1280px)*/
