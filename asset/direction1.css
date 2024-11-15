@@ -5,6 +5,7 @@
     --navigation-font-size: 3.5em;
     background-color: var(--dark-color);
     color: var(--light-color);
+    margin: 1em;
 }
 
 nav>ul>li {
@@ -18,7 +19,7 @@ h2{
 
 h3{
     font-family: var(--main-font);
-    font-size: var(--size-3)
+    font-size: var(--size-2)
 }
 
 h4{

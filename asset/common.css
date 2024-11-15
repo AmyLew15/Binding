@@ -60,7 +60,7 @@ em{
 p{
     font-family: var(--main-font);
     font-size: var(--size-1);
-    text-align: center;
+    text-align: left;
     margin: 1em;
 }
 
