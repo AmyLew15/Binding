@@ -1,1 +1,1 @@
-This is my third repo project on Github! In this series I am exploring how to create a website with multiple pages. Thanks for stopping by!🤠
+This is my third repo project on Github! In this series, I am exploring how to create a website with multiple pages using works originally published on AIGA's website. The articles selected surround the topic of race and different perspectives in graphic design. Thanks for stopping by!🤠
