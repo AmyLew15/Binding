@@ -11,20 +11,25 @@ nav>ul>li {
     border: var(--highlight-color1) 1px solid;
 }
 h2{
-    font-family: var(--heading-font);
+    font-family: var(--main-font);
     font-size: var(--size 1);
+    margin-top: .5em;
 }
 
 h3{
-    font-family: var(--heading-font);
+    font-family: var(--main-font);
     font-size: var(--size-3)
 }
 
 h4{
-    font-family: var(--heading-font);
-    font-size: var(--size-2)
+    font-family: var(--main-font);
+    font-size: var(--size-1)
 }
 
 p{
     font-family: var(--main-font)
+}
+
+blockquote{
+    font-family: var(--blockquote-font)
 }
