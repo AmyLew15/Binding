@@ -34,7 +34,42 @@
     --line: var(--dark-color) solid 1px;
 }
 
-/* MOBILE TO START */
+/*MOBILE TO START*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--light-color);
+    scroll-behavior: smooth;
+    color: var(--dark-color);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: var(--line);
+}
+
+.header-class{
+    margin: 0;
+    text-align: start;
+}
+
+.header-name{
+    margin: 0;
+    text-align: end;
+}
+
+h1{
+    font-family: var(--nav-font);
+    font-size: var(--h1-font-size);
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
 h2{
     font-family: var(--heading-font);
     font-size: var(--h2-font-size);
