@@ -26,7 +26,7 @@
     --light-color: #fdf7e7; 
     --dark-color: #190905;
     --highlight-color1: #F9451D;
-    --highlight-color2: #d9ff00;
+    --highlight-color2: #e3f91d;
     --highlight-color3: #00ff40;
     --highlight-color4: #1c33ff;
 
@@ -41,7 +41,7 @@
 }
 
 body{
-    background-color: var(--light-color);
+    background-color: var(--highlight-color1);
     scroll-behavior: smooth;
     color: var(--dark-color);
 }
@@ -50,7 +50,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    border-bottom: var(--line);
+    background-color: var(--light-color);
 }
 
 .header-class{
@@ -74,22 +74,26 @@ h2{
     font-family: var(--heading-font);
     font-size: var(--h2-font-size);
     line-height: var(--h2-line);
-    color: var(--highlight-color1);
+    color: var(--dark-color);
+    margin: 24px;
 }
 
 h3{
     font-family: var(--paragraph-font);
     font-size: var(--h3-font-size);
+    margin: 24px;
 }
 
 h4{
     font-family: var(--paragraph-font);
     font-size: var(--h4-font-size);
+    margin: 24px;
 }
 
 p{
     font-family: var(--paragraph-font);
     font-size: var(--font-base);
+    margin: 24px;
 }
 
 blockquote{
@@ -97,5 +101,14 @@ blockquote{
     font-size: var(--blockquote-font-size);
     line-height: var(--blockquote-line);
     font-weight: 700;
-    color: var(--highlight-color1);
+    color: var(--light-color);
+    margin: 24px;
+}
+
+footer{
+    font-family: var(--nav-font);
+    font-size: var(--h1-font-size);
+    padding: 16px;
+    display: flex;
+    background-color: var(--light-color);
 }

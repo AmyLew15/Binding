@@ -26,7 +26,7 @@
     --light-color: #fdf7e7; 
     --dark-color: #190905;
     --highlight-color1: #F9451D;
-    --highlight-color2: #d9ff00;
+    --highlight-color2: #e3f91d;
     --highlight-color3: #00ff40;
     --highlight-color4: #1c33ff;
 
@@ -81,28 +81,31 @@ h1{
 }
 
 .neutral{
-    background-color: var(--highlight-color1);
-    width: 90%;
+    color: var(--highlight-color1);
+    background-color: var(--dark-color);
+    width: 88%;
     padding: 16px;
     border-radius: 0px 100px 100px 0px;
 }
 
 .teach{
-    background-color: var(--highlight-color2);
-    width: 90%;
+    color: var(--highlight-color2);
+    background-color: var(--dark-color);
+    width: 92%;
     padding: 16px;
     margin-top: 24px;
     margin-bottom: 24px;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0px 110px 110px 0px;
 }
 
 .international{
-    background-color: var(--highlight-color3);
-    width: 90%;
+    color: var(--highlight-color3);
+    background-color: var(--dark-color);
+    width: 96%;
     padding: 16px;
     margin-top: 24px;
     margin-bottom: 24px;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0px 130px 130px 0px;
 }
 
 h2{
@@ -110,7 +113,11 @@ h2{
     font-size: var(--h2-font-size);
     line-height: var(--h2-line);
     color: var(--highlight-color4);
-    margin: 24px;
+    margin-top: 24px;
+    background-color: var(--dark-color);
+    width: 96%;
+    padding: 16px;
+    border-radius: 0px 80px 80px 0px;
 }
 
 p{
