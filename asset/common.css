@@ -1,51 +1,47 @@
 :root{
-    /* font styles */
-    --nav-font: "JetBrains Mono";
-    --heading-font: "Righteous";
-    --paragraph-font: "Josefin Sans";
-    --blockquote-font: "Josefin Sans";
+    /* fonts */
+    --font-1: "JetBrains Mono";
+    --font-2: "Righteous";
+    --font-3: "Lato";
+    --font-4: "Josefin Sans";
 
     /* font sizes */
-    --font-base: 18px;
-    --h1-font-size: calc(var(--font-base)*.9);
-    --h2-font-size: calc(var(--font-base)*2);
-    --h3-font-size: calc(var(--font-base)*1.6);
-    --h4-font-size: calc(var(--font-base)*1.3);
-    --p-font-size: var(--font-base);
-    --blockquote-font-size: calc(var(--font-base)*1.2);
-
-    /* line height */
-    --h1-line: var(--font-base);
-    --h2-line: calc(var(--font-base)*2.2);
-    --h3-line: calc(var(--font-base)*1.8);
-    --h4-line: calc(var(--font-base)*1.5);
-    --p-line: calc(var(--font-base)*1.1);
-    --blockquote-line: calc(var(--font-base)*1.4);
+    --font-base: 16px;
+    --size-1: 18px;
+    --size-2: 24px;
+    --size-3: 32px;
+    --size-4: 48px;
+    --size-5: 64px;
+    --size-6: 80px;
+    --size-7: 96px;
 
     /* colors */
-    --light-color: #fdf7e7; 
-    --dark-color: #190905;
-    --highlight-color1: #F9451D;
-    --highlight-color2: #e3f91d;
-    --highlight-color3: #00ff40;
-    --highlight-color4: #1c33ff;
+    --light-beige: #fdf7e7; 
+    --dark-beige: #c3bba5;
+    --black: #120f06;
+    --light-red: #fb263b;
+    --dark-red: #b51b2a;
+    --light-orange: #F9451D;
+    --dark-orange: #ca2500;
+    --light-yellow:#ecc100;
+    --dark-yellow: #8f8b16;
+    --light-blue: #6978fc;
+    --dark-blue: #1a31ff;
 
     /* line */
-    --line: var(--dark-color) solid 1px;
-}
-
-/*MOBILE TO START*/
-* {
-    margin: 0;
-    padding: 0;
+    --line: var(--black) solid 1px;
 }
 
 body{
-    background-color: var(--light-color);
-    scroll-behavior: smooth;
-    color: var(--dark-color);
+    background-color: var(--light-beige);
 }
 
+/* site title*/
+h1{
+    font-family: var(--font-1);
+    font-size: var(--font-base);
+    color: var(--black);
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -63,77 +59,53 @@ body{
     text-align: end;
 }
 
-h1{
-    font-family: var(--nav-font);
-    font-size: var(--h1-font-size);
-    margin-top: 16px;
-    margin-bottom: 32px;
-}
-
-.nav{
-    font-family: var(--heading-font);
-    font-size: var(--h2-font-size);
-    line-height: var(--h2-line);
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: auto;
-}
-
-.neutral{
-    color: var(--highlight-color1);
-    background-color: var(--dark-color);
-    width: 88%;
-    padding: 16px;
-    border-radius: 0px 100px 100px 0px;
-}
-
-.teach{
-    color: var(--highlight-color2);
-    background-color: var(--dark-color);
-    width: 92%;
-    padding: 16px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    border-radius: 0px 110px 110px 0px;
-}
-
-.international{
-    color: var(--highlight-color3);
-    background-color: var(--dark-color);
-    width: 96%;
-    padding: 16px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    border-radius: 0px 130px 130px 0px;
-}
-
+/* mobile font settings*/
 h2{
-    font-family: var(--heading-font);
-    font-size: var(--h2-font-size);
-    line-height: var(--h2-line);
-    color: var(--highlight-color4);
-    margin-top: 24px;
-    background-color: var(--dark-color);
-    width: 96%;
-    padding: 16px;
-    border-radius: 0px 80px 80px 0px;
+        font-family: var(--font-2);
+        font-size: calc(var(--size-4)*1.2);
+        color: var(--dark-blue);
+        text-wrap: balance;
+        padding: 16px;
+    }
+
+h3{
+        font-family: var(--font-4);
+        font-size: var(--size-2);
+        padding: 16px;
+    }
+
+h4{
+    font-family: var(--font-4);
+    font-size: calc(var(--size-1)*1.2);
+    margin-left: 16px;
 }
 
 p{
-    font-family: var(--paragraph-font);
-    font-size: var(--font-base);
-    line-height: var(--p-line);
-    text-align: left;
-    margin: 24px;
+    font-family: var(--font-3);
+    font-size: var(--size-1);
+    font-weight: 400;
+    line-height: calc(var(--size-1)*1.6);
+    padding: 16px;
+}
+
+blockquote{
+    font-family: var(--font-4);
+    font-size: var(--size-3);
+    font-weight: 700;
+    line-height: calc(var(--size-3)*1.3);
+    text-wrap: balance;
+    padding: 24px;
 }
 
 footer{
-    font-family: var(--nav-font);
-    font-size: var(--h1-font-size);
+    font-family: var(--font-1);
+    font-size: var(--font-base);
     border-top: var(--line);
     padding: 16px;
     display: flex;
 }
+/* media queries
 
-/*@media (min-width: 1280px)*/
+@media (min-width: 780px)
+
+@media (min-width: 1280px)*/
