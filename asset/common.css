@@ -62,7 +62,7 @@ h1{
 /* mobile font settings*/
 h2{
         font-family: var(--font-2);
-        font-size: calc(var(--size-4)*1.2);
+        font-size: calc(var(--size-4)*1.1);
         color: var(--dark-blue);
         text-wrap: balance;
         padding: 16px;
@@ -78,6 +78,23 @@ h4{
     font-family: var(--font-4);
     font-size: calc(var(--size-1)*1.2);
     margin-left: 16px;
+}
+
+.top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 16px;
+    cursor: pointer;
+    background-color: var(--dark-beige);
+    padding: 8px 12px 8px 12px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.top-button h6 {
+    font-family: var(--font-4);
+    font-size: var(--size-2);
+    color: var(--black);
+    transition: 0.1s ease-in-out;
 }
 
 p{
