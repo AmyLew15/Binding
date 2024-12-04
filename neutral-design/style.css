@@ -36,14 +36,12 @@ h4{
 
 blockquote{
     color: var(--light-red);
+    background-color: var(--black);
     text-wrap: balance;
-    padding: 16px;
+    padding: 30px;
     margin-top: 24px;
     margin-bottom: 24px;
     width: 98%;
-    border-top: solid var(--black);
-    border-right: solid var(--black);
-    border-bottom: solid var(--black);
     border-radius: 0px 100px 100px 0px;
 }
 

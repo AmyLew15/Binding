@@ -21,10 +21,10 @@
     --black: #120f06;
     --light-red: #fb263b;
     --dark-red: #b51b2a;
-    --light-orange: #F9451D;
-    --dark-orange: #ca2500;
-    --light-yellow:#ecc100;
-    --dark-yellow: #8f8b16;
+    --light-orange: #ff2f00;
+    --dark-orange: #b62100;
+    --light-yellow:#ffee00;
+    --dark-yellow: #b9ae0f;
     --light-blue: #6978fc;
     --dark-blue: #1a31ff;
 
@@ -43,10 +43,13 @@ h1{
     color: var(--black);
 }
 .header{
+    background-color: var(--light-beige);
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    border-bottom: var(--line);
+    position: sticky;
+    top:0;
+    z-index: 1000;
 }
 
 .header-class{
@@ -59,10 +62,18 @@ h1{
     text-align: end;
 }
 
+.home-button {
+    display: flex;
+    padding: 16px;
+    position: sticky;
+    background-color: var(--dark-beige);
+    border-radius: 0px 0px 0px 0px;
+}
+
 /* mobile font settings*/
 h2{
         font-family: var(--font-2);
-        font-size: calc(var(--size-4)*1.1);
+        font-size: calc(var(--size-4)*1.3);
         color: var(--dark-blue);
         text-wrap: balance;
         padding: 16px;
@@ -78,6 +89,13 @@ h4{
     font-family: var(--font-4);
     font-size: calc(var(--size-1)*1.2);
     margin-left: 16px;
+}
+
+h5{
+    font-family: var(--font-4);
+    font-size: var(--size-2);
+    color: var(--black);
+    text-align: center;
 }
 
 .top-button {

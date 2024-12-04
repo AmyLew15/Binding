@@ -6,14 +6,14 @@ h2{
     background-color: var(--black);
     padding-top: 36px;
     padding-bottom: 36px;
-    border-radius: 0px 50px 0px 50px;
+    border-radius: 0px 0px 0px 50px;
 }
 
 hgroup{
     text-wrap: balance;
     border-top: var(--light-beige);
     border-right: solid var(--black);
-    border-bottom: solid var(--black);;
+    border-bottom: solid var(--black);
     border-radius: 0px 0px 50px 0px;
     padding-bottom: 16px;
 }
@@ -36,13 +36,11 @@ h4{
 
 blockquote{
     color: var(--light-yellow);
+    background-color: var(--black);
     text-wrap: balance;
-    padding: 16px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 30px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     width: 98%;
-    border-top: solid var(--black);
-    border-right: solid var(--black);
-    border-bottom: solid var(--black);
     border-radius: 0px 100px 100px 0px;
 }
