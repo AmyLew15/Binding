@@ -19,7 +19,7 @@ h2{
     padding-top: 24px;
     padding-bottom: 24px;
     text-wrap: balance;
-    color: var(--dark-blue);
+    color: var(--light-blue);
     border-top: var(--light-beige);
     border-right: solid var(--black);
     border-bottom: solid var(--black);;
@@ -72,11 +72,10 @@ h2{
 }
 
 .landingshape{
-    background-color: var(--dark-blue);
+    background-color: var(--light-blue);
     height: 80px;
     border-radius: 0px 45px 0px 0px;
     margin-bottom: -15%;
-
 }
 
 p{

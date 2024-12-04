@@ -6,7 +6,7 @@ h2{
     background-color: var(--black);
     padding-top: 36px;
     padding-bottom: 36px;
-    border-radius: 0px 50px 0px 50px;
+    border-radius: 0px 0px 0px 50px;
 }
 
 hgroup{
