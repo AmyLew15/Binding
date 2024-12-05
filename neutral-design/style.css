@@ -2,7 +2,15 @@
     color: var(--light-blue);
 }
 
+.navtitle-home{
+    color: var(--light-blue);
+}
+
 .navcircle1{
+    color: var(--light-beige);
+}
+
+.navtitle-01{
     color: var(--light-beige);
 }
 
