@@ -38,6 +38,11 @@ body{
 }
 
 /* mobile top nav on all pages*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 nav{
     background-color: var(--black);
     border-bottom: solid var(--light-beige);
@@ -45,9 +50,6 @@ nav{
     justify-content: space-between;
     padding-left: 16px;
     padding-right: 16px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 .nav-item{
@@ -286,11 +288,6 @@ blockquote{
     max-width: 85%;
     }
 }
-
-.footer h1{
-    font-size: var(--size-3);
-}
-
 
 @media (min-width: 1400px){
     .nav-item{
