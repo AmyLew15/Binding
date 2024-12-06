@@ -20,14 +20,14 @@
     --light-beige: #fdf7e7; 
     --dark-beige: #c3bba5;
     --black: #120f06;
-    --light-red: #fb263b;
-    --dark-red: #b51b2a;
-    --light-orange: #ff2f00;
-    --dark-orange: #b62100;
+    --light-red: #ff283e;
+    --dark-red: #a50010;
+    --light-orange: #ff8000;
+    --dark-orange: #c76400;
     --light-yellow:#ffee00;
     --dark-yellow: #b9ae0f;
-    --light-blue: #6978fc;
-    --dark-blue: #1a31ff;
+    --light-blue: #3f52fe;
+    --dark-blue: #0012b7;
 
     /* line */
     --line: var(--black) solid 1px;
@@ -129,7 +129,7 @@ h1{
 /* mobile font settings*/
 h2{
         font-family: var(--font-2);
-        font-size: calc(var(--size-3)*1.8);
+        font-size: calc(var(--size-4)*1.1);
         text-wrap: balance;
         padding: 16px;
     }
@@ -154,6 +154,7 @@ h4{
     background-color: var(--dark-beige);
     padding: 8px 12px 8px 12px;
     border-radius: 50px 50px 50px 50px;
+    border: solid 1px var(--black);
 }
 
 .top-button h5 {
@@ -168,7 +169,11 @@ p{
     font-size: var(--size-1);
     font-weight: 400;
     line-height: calc(var(--size-1)*1.6);
+    text-align: left;
+    text-wrap: balance;
     padding: 16px;
+    max-width: 65ch;
+    margin: 16px;
 }
 
 blockquote{
@@ -185,7 +190,36 @@ em{
 }
 
 /* media queries*/
-@media (min-width: 745px){
+    @media (min-width: 745px){
+.nav-item{
+    font-size: var(--size-5);
+    }
+
+.navtitle-home{
+    font-size: var(--size-2);
+}
+
+.navtitle-01{
+    font-size: var(--size-2);
+}
+
+.navtitle-02{
+    font-size: var(--size-2);
+}
+
+.navtitle-03{
+    font-size: var(--size-2);
+}
+
+h1{
+    font-size: var(--size-1);
+}
+
+p{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 90%;
+}
 
 .top-button {
     bottom: 65px;
@@ -201,8 +235,46 @@ em{
 }
 
 @media (min-width: 1000px){
+.nav-item{
+        font-size: var(--size-7);
+    }
+
+    .navtitle-home{
+        font-size: var(--size-3);
+    }
+
+    .navtitle-01{
+        font-size: var(--size-3);
+    }
+
+    .navtitle-02{
+        font-size: var(--size-3);
+    }
+
+    .navtitle-03{
+        font-size: var(--size-3);
+    }
+
+    p{
+        display: flex;
+        justify-content: flex-end;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+
+blockquote{
+    max-width: 85%;
+    align-items: center;
+}
 
 .footer h1{
-    font-size: var(--size-2);
+    font-size: var(--size-3);
 }
+}
+
+@media (min-width: 1400px){
+    .nav-item{
+        font-size: var(--size-8);
+    }
 }

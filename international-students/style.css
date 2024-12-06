@@ -51,8 +51,8 @@ h4{
 }
 
 blockquote{
-    color: var(--light-yellow);
-    background-color: var(--black);
+    color: var(--black);
+    background-color: var(--light-yellow);
     text-wrap: balance;
     padding: 30px;
     margin-top: 24px;
