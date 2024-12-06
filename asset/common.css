@@ -43,6 +43,7 @@ header{
     top: 0;
     z-index: 1000;
 }
+
 nav{
     background-color: var(--black);
     border-bottom: solid var(--light-beige);
@@ -59,10 +60,6 @@ nav{
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-}
-
-.nav-item:hover{
-    color: var(--dark-beige)
 }
 
 .navcirclehome{
@@ -195,34 +192,48 @@ blockquote{
     transition: border-color 0.5s ease;
 }
 
-blockquote:hover::before, blockquote:hover::after {
-    width: 100%; 
-}
-
 em{
     font-family: var(--font-1);
 }
 
 /* media queries*/
-    @media (min-width: 745px){
+@media (min-width: 745px){
 .nav-item{
     font-size: var(--size-4);
+    display: grid;
+    grid-template-columns: auto auto;
     }
 
-.navtitle-home{
-    font-size: var(--size-2);
-}
+    .navtitle-home{
+        font-size: var(--size-2);
+        padding: 16px;
+    }
+    .navcirclehome:hover{
+        color: var(--dark-beige);
+    }
 
 .navtitle-01{
     font-size: var(--size-2);
+    padding: 16px;
+}
+.navcircle1:hover{
+    color: var(--dark-beige);
 }
 
 .navtitle-02{
     font-size: var(--size-2);
+    padding: 16px;
+}
+.navcircle2:hover{
+    color: var(--dark-beige);
 }
 
 .navtitle-03{
     font-size: var(--size-2);
+    padding: 16px;
+}
+.navcircle3:hover{
+    color: var(--dark-beige);
 }
 
 h1{
@@ -234,7 +245,6 @@ p{
     justify-content: flex-end;
     max-width: 90%;
 }
-
 .top-button {
     bottom: 65px;
 }

@@ -62,13 +62,6 @@ blockquote{
 }
 
 @media (min-width: 745px){
-
-.nav-item{
-    font-size: var(--size-7);
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-
 h1{
     font-size: var(--size-1);
     }
