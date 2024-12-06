@@ -156,7 +156,6 @@ h4{
     background-color: var(--dark-beige);
     padding: 8px 12px 8px 12px;
     border-radius: 50px 50px 50px 50px;
-    border: solid 1px var(--black);
 }
 
 .top-button h5 {
