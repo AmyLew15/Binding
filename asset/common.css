@@ -230,7 +230,7 @@ em{
 
 .navtitle-03{
     font-size: var(--size-2);
-    padding: 16px;
+            padding: 16px;
 }
 .navcircle3:hover{
     color: var(--dark-beige);
