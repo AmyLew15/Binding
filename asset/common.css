@@ -43,7 +43,11 @@ nav{
     border-bottom: solid var(--light-beige);
     display: flex;
     justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
     position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav-item{
@@ -53,8 +57,6 @@ nav{
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
-    position: relative;
-    overflow: hidden;
 }
 
 .nav-item:hover{
@@ -192,7 +194,7 @@ em{
 /* media queries*/
     @media (min-width: 745px){
 .nav-item{
-    font-size: var(--size-5);
+    font-size: var(--size-4);
     }
 
 .navtitle-home{
@@ -236,7 +238,11 @@ p{
 
 @media (min-width: 1000px){
 .nav-item{
-        font-size: var(--size-7);
+        font-size: var(--size-5);
+    }
+
+    .nav-item:hover{
+        color: var(--dark-beige)
     }
 
     .navtitle-home{
@@ -275,6 +281,6 @@ blockquote{
 
 @media (min-width: 1400px){
     .nav-item{
-        font-size: var(--size-8);
+        font-size: var(--size-6);
     }
 }
